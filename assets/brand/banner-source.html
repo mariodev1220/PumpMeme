@@ -1,0 +1,35 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+@font-face{font-family:Fred;font-weight:700;src:url(../../vendor/fonts/fredoka-latin-700-normal.woff2)}
+@font-face{font-family:Fred;font-weight:600;src:url(../../vendor/fonts/fredoka-latin-600-normal.woff2)}
+@font-face{font-family:DMS;font-weight:500;src:url(../../vendor/fonts/dm-sans-latin-500-normal.woff2)}
+*{box-sizing:border-box;margin:0}
+body{width:1500px;height:500px;overflow:hidden;position:relative;font-family:DMS;color:#24211c;background:#fff8ea;background-image:radial-gradient(circle at 10% 0,#fff0bd 0,transparent 45%),radial-gradient(circle at 80% 110%,#ffe2c4 0,transparent 50%)}
+:root{--holo:linear-gradient(115deg,#ff8fc1,#ffd36e,#8ff5c4,#7cc6ff,#c79bff,#ff8fc1)}
+.t{position:absolute;left:70px;top:58px}
+.k{font:600 20px Fred;letter-spacing:.12em;text-transform:uppercase;color:#237a33}
+h1{font:700 78px/.95 Fred;letter-spacing:-.02em;margin-top:12px}h1 em{font-style:normal;color:#f2891d;font-size:58px}
+.sub{margin-top:18px;display:flex;gap:10px}
+.pill{font:600 20px Fred;padding:8px 16px;border:2px solid #24211c;border-radius:14px 14px 5px 5px;background:#fff;box-shadow:0 3px 0 #24211c}
+.pill.g{background:#33a447;color:#fff}
+.cards{position:absolute;right:10px;top:0;bottom:0;width:800px}
+.c{position:absolute;width:200px;height:280px;border-radius:14px;padding:10px;background:#fff;border:6px solid var(--f);box-shadow:0 20px 40px -14px rgba(70,45,0,.45);display:flex;flex-direction:column;gap:7px}
+.c .n{display:flex;justify-content:space-between;font:700 15px Fred}.c .n b{color:var(--f)}
+.c .a{flex:1;border-radius:8px;overflow:hidden;box-shadow:0 0 0 2px #24211c}.c .a img{width:100%;height:100%;object-fit:cover}
+.c .r{font:600 10px Fred;letter-spacing:.06em;text-transform:uppercase;color:#fff;background:var(--f);align-self:flex-start;padding:3px 7px;border-radius:5px}
+.c .no{font:600 10px Fred;color:#6b645a}
+.c.h{border-color:transparent;background:linear-gradient(#fff,#fff) padding-box,var(--holo) border-box}
+.c.u{background:linear-gradient(160deg,#fff6d6,#ffe39a)}
+.foil{position:absolute;inset:0;border-radius:inherit;background:repeating-linear-gradient(115deg,#ff8fc1 0%,#ffd36e 7%,#8ff5c4 14%,#7cc6ff 21%,#c79bff 28%,#ff8fc1 35%);background-size:260% 260%;background-position:30% 50%;mix-blend-mode:color-dodge;opacity:.3}
+.unoff{position:absolute;right:24px;bottom:18px;font:500 13px DMS;color:#6b645a}
+</style></head><body>
+<div class="t"><div class="k">Series 1 · Solana · 7 cards + 1 secret</div><h1>PumpMeme<br><em>The Pump Collection</em></h1>
+<div class="sub"><span class="pill g">$PumpMeme</span><span class="pill">Collect the full crew</span></div></div>
+<div class="cards">
+ <div class="c" style="--f:#3b82f6;left:20px;top:150px;transform:rotate(-16deg)"><div class="n">The Climb<b>88</b></div><div class="a"><img src="../../assets/cards/climb.jpg"></div><span class="r">Uncommon</span><span class="no">002/007</span><i class="foil"></i></div>
+ <div class="c" style="--f:#f2891d;left:170px;top:90px;transform:rotate(-8deg)"><div class="n">Liftoff<b>95</b></div><div class="a"><img src="../../assets/cards/rocket.jpg"></div><span class="r">Rare</span><span class="no">004/007</span><i class="foil"></i></div>
+ <div class="c u" style="--f:#d8a21c;left:320px;top:60px;transform:rotate(0deg);width:220px;height:308px;z-index:3"><div class="n">Full Crew<b>99</b></div><div class="a"><img src="../../assets/cards/pumpmeme.jpg"></div><span class="r">Ultra rare</span><span class="no">008/007</span><i class="foil"></i></div>
+ <div class="c h" style="--f:#9b6bff;left:480px;top:90px;transform:rotate(8deg);z-index:2"><div class="n">Moon Plant<b>99</b></div><div class="a"><img src="../../assets/cards/moon.jpg"></div><span class="r">Holo rare</span><span class="no">006/007</span><i class="foil"></i></div>
+ <div class="c" style="--f:#f2891d;left:620px;top:150px;transform:rotate(16deg);z-index:1"><div class="n">Catch the Wave<b>93</b></div><div class="a"><img src="../../assets/cards/surf.jpg"></div><span class="r">Rare</span><span class="no">005/007</span><i class="foil"></i></div>
+</div>
+<div class="unoff">Unofficial fan meme · NFA</div>
+</body></html>
