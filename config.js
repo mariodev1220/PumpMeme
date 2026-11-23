@@ -3,6 +3,6 @@
    Every Buy button, chart link, CA box, Copy button, X button and @handle on the site updates automatically.
    No rebuild needed. Leave "" for TBA. */
 window.CONFIG = {
-  ca: "",   // contract address, e.g. "AbC...pump"
+  ca: "93uamrbDerKbUh8MSjNF1wDtxYvEUD1CS9BcHn1apump",   // contract address, e.g. "AbC...pump"
   x: "https://x.com/pumpmemex"     // full X link, e.g. "https://x.com/YourHandle"
 };
